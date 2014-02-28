@@ -13,4 +13,4 @@ def screen(mode="html",full="",start="",stop="",instance=0):
 				a=full.find(start)
 				b=full.find(stop)
 				full=full.replace(full[a:b+1],"")	
-				print(full)
+				return full
